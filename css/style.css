@@ -1,0 +1,10 @@
+/* beranda */
+
+.card-img-top {
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ipa */
