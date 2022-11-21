@@ -1,0 +1,25 @@
+&.formTest {
+    form {
+        width: auto;
+        max-width: 100%;
+        margin: auto;
+        border: 1px solid;
+        padding: 2rem;
+        border-radius: 0.25rem;
+        label {
+            margin-right: 1rem;
+        }
+        input[type="text"],
+        input[type="submit"] {
+            padding: 1rem;
+            border-radius: 0.25rem;
+            border: 1px solid;
+        }
+        input[type="submit"] {
+            background-color: greenyellow;
+        }
+    }
+}
+
+
+}
