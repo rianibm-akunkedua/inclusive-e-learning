@@ -34,7 +34,7 @@
     </nav>
 
     <!-- navigasi tab -->
-    <div class="container my-5">
+    <section class="container my-5" id="tabs">
         <nav>
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="nav-materiipa-tab" data-bs-toggle="tab" data-bs-target="#nav-materiipa" type="button" role="tab" aria-controls="nav-materiipa" aria-selected="true">Materi</button>
@@ -43,64 +43,66 @@
         </nav>
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-materiipa" role="tabpanel" aria-labelledby="nav-materiipa-tab" tabindex="0">
-                <div class="row mt-4">
-                    <div class="col-3">
-                        <nav class="nav flex-column">
+                <div class="row">
+                    <div class="col-4 mt-3">
+                        <div id="list-materi-ipa" class="list-group">
                             <h4>Semua Topik</h4>
-
-                            <a class="nav-link active" aria-current="page" href="#">Sistem Gerak</a>
-                            <a class="nav-link" href="#">Sistem Pencernaan</a>
-                            <a class="nav-link" href="#">Sistem Pernapasan</a>
-                            <a class="nav-link" href="#">Sistem Peredaran Darah</a>
-                            <a class="nav-link" href="#">Struktur dan Fungsi Tumbuhan</a>
-                            <a class="nav-link" href="#">Fotosintesis</a>
-                        </nav>
+                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-1">Sistem Gerak</a>
+                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-2">Sistem Pencernaan</a>
+                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-3">Sistem Peredaran Darah</a>
+                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-4">Struktur dan Fungsi Tumbuhan</a>
+                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-5">Fotosintesis</a>
+                        </div>
                     </div>
-                    <div class="col-9">
-                        <div class="sistem-gerak mb-5">
-                            <h3>Sistem Gerak</h3>
-                            <hr />
-                            <a href="rangka.html">
-                                <h5>Rangka</h5>
-                            </a>
-                            <hr />
-                            <h5>Sendi</h5>
-                            <hr />
-                            <h5>Otot</h5>
-                            <hr />
-                            <h5>Gangguan dan Kelainan Pada Sistem Gerak</h5>
-                        </div>
-                        <div class="sistem-pencernaan mb-5">
-                            <h3>Nutrisi</h3>
-                            <hr />
-                            <h5>Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h5>
-                            <hr />
-                            <h5>Gangguan Pada Sistem Pencernaan</h5>
-                        </div>
-                        <div class="sistem-peredaran-darah mb-5">
-                            <h3>Sistem Peredaran Darah</h3>
-                            <hr />
-                            <h5>Struktur dan Fungsi Sistem Peredaran Darah</h5>
-                            <hr />
-                            <h5>Gangguan atau Kelainan Pada Sistem Peredaran Darah</h5>
-                        </div>
-                        <div class="struktur-fungsi-tumbuhan mb-5">
-                            <h3>Struktur & Fungsi Tumbuhan</h3>
-                            <hr />
-                            <h5>Akar, Batang, Daun dan Bunga</h5>
-                            <hr />
-                            <h5>Jaringan Pada Tumbuhan</h5>
-                            <hr />
-                            <h5>Teknologi</h5>
-                        </div>
-                        <div class="fotosintesis mb-5">
-                            <h3>Fotosintesis</h3>
-                            <hr />
-                            <h5>Konsep Fotosintesis</h5>
-                            <hr />
-                            <h5>Percobaan Fotosintesis</h5>
-                            <hr />
-                            <h5>Faktor-Faktor Yang Mempengaruhi Fotosintesis</h5>
+                    <div class="col-8">
+                        <div data-bs-spy="scroll" data-bs-target="#list-materi-ipa" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                            <div class="sistem-gerak mb-5 mt-3">
+                                <h3 id="list-materi-ipa-1">Sistem Gerak</h3>
+                                <hr />
+                                <a href="rangka.html">
+                                    <h5>Rangka</h5>
+                                </a>
+                                <hr />
+                                <h5>Sendi</h5>
+                                <hr />
+                                <h5>Otot</h5>
+                                <hr />
+                                <h5>Gangguan dan Kelainan Pada Sistem Gerak</h5>
+                            </div>
+                            <div class="sistem-pencernaan mb-5">
+                                <h3 id="list-materi-ipa-2">Sistem Pencernaan</h3>
+                                <hr />
+                                <h5>Nutrisi</h5>
+                                <hr />
+                                <h5>Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h5>
+                                <hr />
+                                <h5>Gangguan Pada Sistem Pencernaan</h5>
+                            </div>
+                            <div class="sistem-peredaran-darah mb-5">
+                                <h3 id="list-materi-ipa-3">Sistem Peredaran Darah</h3>
+                                <hr />
+                                <h5>Struktur dan Fungsi Sistem Peredaran Darah</h5>
+                                <hr />
+                                <h5>Gangguan atau Kelainan Pada Sistem Peredaran Darah</h5>
+                            </div>
+                            <div class="struktur-fungsi-tumbuhan mb-5">
+                                <h3 id="list-materi-ipa-4">Struktur & Fungsi Tumbuhan</h3>
+                                <hr />
+                                <h5>Akar, Batang, Daun dan Bunga</h5>
+                                <hr />
+                                <h5>Jaringan Pada Tumbuhan</h5>
+                                <hr />
+                                <h5>Teknologi</h5>
+                            </div>
+                            <div class="fotosintesis mb-5">
+                                <h3 id="list-materi-ipa-5">Fotosintesis</h3>
+                                <hr />
+                                <h5>Konsep Fotosintesis</h5>
+                                <hr />
+                                <h5>Percobaan Fotosintesis</h5>
+                                <hr />
+                                <h5>Faktor-Faktor Yang Mempengaruhi Fotosintesis</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,7 +167,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- isi -->
 
