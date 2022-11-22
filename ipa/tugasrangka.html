@@ -18,7 +18,7 @@
             <div class="container">
                 <a class="active" href="#"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
 
-                <a href="#"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i> Login</a>
+                <a href="#"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i>Keluar</a>
             </div>
         </nav>
     </header>
@@ -27,9 +27,9 @@
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="beranda.html">Menu Utama</a></li>
-                <li class="breadcrumb-item" aria-current="">IPA</li>
-                <li class="breadcrumb-item" aria-current="">Materi</li>
-                <li class="breadcrumb-item active" aria-current="page">Sitem Gerak</li>
+                <li class="breadcrumb-item" aria-current=""><a href="ipa.html">IPA</a></li>
+                <li class="breadcrumb-item" aria-current="">Tugas</li>
+                <li class="breadcrumb-item active" aria-current="page">Sistem Gerak</li>
             </ol>
         </nav>
 
@@ -39,26 +39,32 @@
     <!-- isi -->
     <div class="container mt-4 mb-2">
       <div class="row">
-        <div class="col-9">
+
+        <!-- instruksi tugas -->
+        <article class="col-9">
           <h1 class="fw-bold">Tugas Rangka</h1>
-          <ul>
-            <li>100 Poin</li>
-            <li>Tenggat: 21 Nov 23.59</li>
-          </ul>
-          <hr>
+          <div class="d-flex w-100 justify-content-between">
+            <p>100 Poin</p>
+            <p>Tenggat: 21 Nov 23.59</p>
+          </div>
+          <hr class="m-0">
           <p>Unggah soal di bawah ini atau dengarkan isinya</p>
           <button type="button" class="btn shadow-sm text-black mb-3" style="background-color: #FFDDD1;"><i class="fa-solid fa-volume-high"></i> Dengar Isi Soal </button>
-<br>
+          <br>
           <button type="button" class="btn shadow-sm text-black" style="background-color: #FFDDD1;"><i class="fa-solid fa-file-arrow-down"></i></i> Unduh Soal </button>
+        </article>
 
-        </div>
-        <div class="col-3 justify-content-center">
-           <h3 class="justify-content-center">Kumpul Tugas Anda</h3> 
-           <button type="button" class="btn shadow-sm text-black mb-3" ><i class="fa-solid fa-plus"></i> Dengar Isi Materi </button>
-
-           <button type="button" class="btn shadow-sm text-black" ><i class="fa-solid fa-microphone"></i> Unduh Materi </button>
-
-        </div>
+        <!-- tempat kumpul tugas -->
+          <aside class="col-3">
+            <div class="card" style="width:18rem;">
+              <div class="card-body">
+                <h3 class="card-title mt-2">Kumpul Tugas Anda</h3> 
+              <button type="button" class="btn shadow-sm text-black mb-3"  style="background-color: #FFDDD1;"><i class="fa-solid fa-plus"></i> Dengar Isi Materi </button>
+              <button type="button" class="btn shadow-sm text-black mb-3" style="background-color: #FFDDD1;" ><i class="fa-solid fa-microphone"></i> Unduh Materi </button>   
+            </div>
+            </div>
+          </aside>
+        
       </div>
     </div>
 
