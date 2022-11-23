@@ -19,7 +19,7 @@
             class: "setAccessibility",
             icon: "FontAwesome",
             iconClass: ["fas", "fa-adjust"],
-            text: "High Contrast",
+            text: "Ubah Kontras",
         },
         btnDarkMode: {
             active: true,
@@ -27,7 +27,7 @@
             class: "setAccessibility",
             icon: "FontAwesome",
             iconClass: ["fas", "fa-moon"],
-            text: "Dark Mode",
+            text: "Mode Gelap",
         },
         btnIncFont: {
             active: true,
@@ -35,7 +35,7 @@
             class: "setAccessibility",
             icon: "A+",
             iconClass: "",
-            text: "Increase",
+            text: "Perbesar Teks",
         },
         btnOriFont: {
             active: true,
@@ -43,7 +43,7 @@
             class: "setAccessibility",
             icon: "Aa",
             iconClass: "",
-            text: "Original",
+            text: "Teks Normal",
         },
         btnDecFont: {
             active: true,
@@ -51,7 +51,7 @@
             class: "setAccessibility",
             icon: "A-",
             iconClass: "",
-            text: "Decrease",
+            text: "Perkecil Teks",
         },
         btnMarkerLine: {
             active: true,
@@ -59,7 +59,7 @@
             class: "setAccessibility",
             icon: "FontAwesome",
             iconClass: ["fas", "fa-ruler-horizontal"],
-            text: "Marker Line",
+            text: "Highlighter",
         },
         btnReadingLine: {
             active: true,
@@ -67,7 +67,7 @@
             class: "setAccessibility",
             icon: "FontAwesome",
             iconClass: ["fas", "fa-ruler-horizontal"],
-            text: "Reading Line",
+            text: "Ruler",
         },
         btnReset: {
             active: true,
@@ -75,7 +75,7 @@
             class: "setAccessibility",
             icon: "FontAwesome",
             iconClass: ["fas", "fa-redo-alt"],
-            text: "Rest",
+            text: "Reset",
         },
     };
 

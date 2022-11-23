@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- accessibility -->
+    <link rel="stylesheet" href="icons/fontawesome5.9.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/asb.css" />
+    <script src="js/asb.js"></script>
 </head>
 
 <body>
@@ -34,7 +39,7 @@
     </nav>
 
     <!-- navigasi tab -->
-    <section class="container my-5" id="tabs">
+    <section class="container" id="tabs">
         <nav>
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                 <button class="nav-link active" id="nav-materiipa-tab" data-bs-toggle="tab" data-bs-target="#nav-materiipa" type="button" role="tab" aria-controls="nav-materiipa" aria-selected="true">Materi</button>
@@ -59,7 +64,7 @@
                             <div class="sistem-gerak mb-5 mt-3">
                                 <h3 id="list-materi-ipa-1">Sistem Gerak</h3>
                                 <hr />
-                                <a href="rangka.html">
+                                <a href="rangka.html" class="text-decoration-none text-black">
                                     <h5>Rangka</h5>
                                 </a>
                                 <hr />
@@ -112,7 +117,7 @@
                     <div class="col-3">
                         <aside>
                             <h4 class="">Tugas Terbaru</h4>
-                            <a href="">Melodi Musik</a>
+                            <a href="">Tugas Gangguan Pada Sistem Pencernaan</a>
                             <p class="text-secondary">Batas waktu lusa</p>
                             <button type="button" class="btn shadow-sm text-black mb-3" style="background-color: #ffddd1">Lihat Lainnya</button>
                         </aside>
@@ -121,9 +126,9 @@
                         <div class="sistem-gerak mb-5">
                             <h3>Sistem Gerak</h3>
                             <hr />
-                            <a href="tugasrangka.html">
-                                <h5>Tugas Rangka</h5>
-                            </a>
+
+                            <h5>Tugas Rangka</h5>
+
                             <hr />
                             <h5>Tugas Sendi</h5>
                             <hr />
@@ -136,7 +141,9 @@
                             <hr />
                             <h5>Tugas Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h5>
                             <hr />
-                            <h5>Tugas Gangguan Pada Sistem Pencernaan</h5>
+                            <a href="/tugas-gangguan-pencernaan.html" class="text-decoration-none text-black">
+                                <h5>Tugas Gangguan Pada Sistem Pencernaan</h5>
+                            </a>
                         </div>
                         <div class="sistem-peredaran-darah mb-5">
                             <h3>Sistem Peredaran Darah</h3>
@@ -174,7 +181,8 @@
     </footer>
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script type="text/javascript" src="js/asb.js"></script>
 </body>
 
 </html>
