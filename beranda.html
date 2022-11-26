@@ -26,9 +26,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])){
         <header>
             <nav class="navbar shadow-sm p-3 mb-5" style="background-color: white">
                 <div class="container">
-                    <a class="active" href="#"><i class="fa fa-fw fa-home fa-xl" style="color: #07a5a9"></i>Menu Utama</a>
+                    <a class="active text-decoration-none text-black" href="#"><i class="fa fa-fw fa-home fa-xl" style="color: #07a5a9"></i>Menu Utama</a>
 
-                    <a href="logout.php"><i class="fa fa-fw fa-user fa-xl" style="color: #07a5a9"></i>Keluar</a>
+                    <a class="text-decoration-none text-black" href="logout.php"><i class="fa fa-fw fa-user fa-xl" style="color: #07a5a9"></i>Keluar</a>
                 </div>
             </nav>
         </header>
@@ -62,7 +62,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['user_name'])){
                         </a>
                     </div>
                     <div class="col-md-3 mb-3">
-                        <a href="ipa/ipa.html" class="text-decoration-none">
+                        <a href="/ipa.html" class="text-decoration-none">
                             <div class="card">
                                 <img src="img/1-3-ipa.jpg" class="card-img-top" alt="Menu Mata Pelajaran IPA" />
                                 <div class="card-body">
