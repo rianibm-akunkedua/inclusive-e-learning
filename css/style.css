@@ -1,3 +1,21 @@
+/* font */
+
+@font-face {
+    font-family: "MyWebFont";
+    src: url("Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514\EOT");
+    /* IE9 Compat Modes */
+    src: url("Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514\WOFF2") format("woff2"), /* Super Modern Browsers */
+    url("Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514\WOFF") format("woff"), /* Pretty Modern Browsers */
+    url("Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514\TTF") format("truetype"), /* Safari, Android, iOS */
+    url("Atkinson-Hyperlegible-Font-Print-and-Web-2020-0514\SVG") format("svg");
+    /* Legacy iOS */
+}
+
+* {
+    font-family: "MyWebFont", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+
 /* beranda */
 
 .card-img-top {
@@ -5,6 +23,9 @@
     width: 100%;
     object-fit: cover;
 }
+
+
+/* ipa */
 
 
 /* tabs */
@@ -19,10 +40,21 @@
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    border-top: #FFFFFF;
-    border-right: #FFFFFF;
-    border-left: #FFFFFF;
-    border-bottom: 3px solid #0D9737;
+    border-top: #ffffff;
+    border-right: #ffffff;
+    border-left: #ffffff;
+    border-bottom: 3px solid #0d9737;
+}
+
+.list-group-item {
+    border-top: 1px solid #006266;
+    border-left-color: none;
+    border-right-color: none;
+}
+
+.list-group-item:hover {
+    background-color: #f1f9fb;
+    border-left: 2px solid #0091b5;
 }
 
 

@@ -32,7 +32,7 @@
     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Menu Utama</a></li>
+                <li class="breadcrumb-item"><a href="/beranda.html">Menu Utama</a></li>
                 <li class="breadcrumb-item active" aria-current="page">IPA</li>
             </ol>
         </div>
@@ -42,8 +42,12 @@
     <section class="container" id="tabs">
         <nav>
             <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-materiipa-tab" data-bs-toggle="tab" data-bs-target="#nav-materiipa" type="button" role="tab" aria-controls="nav-materiipa" aria-selected="true">Materi</button>
-                <button class="nav-link" id="nav-tugasipa-tab" data-bs-toggle="tab" data-bs-target="#nav-tugasipa" type="button" role="tab" aria-controls="nav-tugasipa" aria-selected="false">Tugas</button>
+                <a class="nav-link active" id="nav-materiipa-tab" data-bs-toggle="tab" data-bs-target="#nav-materiipa" type="button" role="tab" aria-controls="nav-materiipa" aria-selected="true">
+                    <h1>Materi</h1>
+                </a>
+                <a class="nav-link" id="nav-tugasipa-tab" data-bs-toggle="tab" data-bs-target="#nav-tugasipa" type="button" role="tab" aria-controls="nav-tugasipa" aria-selected="false">
+                    <h1>Tugas</h1>
+                </a>
             </div>
         </nav>
         <div class="tab-content" id="nav-tabContent">
@@ -51,12 +55,12 @@
                 <div class="row">
                     <div class="col-4 mt-3">
                         <div id="list-materi-ipa" class="list-group">
-                            <h4>Semua Topik</h4>
-                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-1">Sistem Gerak</a>
-                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-2">Sistem Pencernaan</a>
-                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-3">Sistem Peredaran Darah</a>
-                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-4">Struktur dan Fungsi Tumbuhan</a>
-                            <a class="list-group-item list-group-item-action" href="#list-materi-ipa-5">Fotosintesis</a>
+                            <h2 class="fw-bold">Semua Topik</h2>
+                            <a class="list-group-item list-group-item-action border-0 list-group-item-info" href="#list-materi-ipa-1">Sistem Gerak</a>
+                            <a class="list-group-item list-group-item-action border-0 list-group-item-info" href="#list-materi-ipa-2">Sistem Pencernaan</a>
+                            <a class="list-group-item list-group-item-action border-0 list-group-item-info" href="#list-materi-ipa-3">Sistem Peredaran Darah</a>
+                            <a class="list-group-item list-group-item-action border-0 list-group-item-info" href="#list-materi-ipa-4">Struktur dan Fungsi Tumbuhan</a>
+                            <a class="list-group-item list-group-item-action border-0 list-group-item-info" href="#list-materi-ipa-5">Fotosintesis</a>
                         </div>
                     </div>
                     <div class="col-8">
@@ -65,48 +69,48 @@
                                 <h3 id="list-materi-ipa-1">Sistem Gerak</h3>
                                 <hr />
                                 <a href="rangka.html" class="text-decoration-none text-black">
-                                    <h5>Rangka</h5>
+                                    <h4>Rangka</h4>
                                 </a>
                                 <hr />
-                                <h5>Sendi</h5>
+                                <h4>Sendi</h4>
                                 <hr />
-                                <h5>Otot</h5>
+                                <h4>Otot</h4>
                                 <hr />
-                                <h5>Gangguan dan Kelainan Pada Sistem Gerak</h5>
+                                <h4>Gangguan dan Kelainan Pada Sistem Gerak</h4>
                             </div>
                             <div class="sistem-pencernaan mb-5">
                                 <h3 id="list-materi-ipa-2">Sistem Pencernaan</h3>
                                 <hr />
-                                <h5>Nutrisi</h5>
+                                <h4>Nutrisi</h4>
                                 <hr />
-                                <h5>Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h5>
+                                <h4>Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h4>
                                 <hr />
-                                <h5>Gangguan Pada Sistem Pencernaan</h5>
+                                <h4>Gangguan Pada Sistem Pencernaan</h4>
                             </div>
                             <div class="sistem-peredaran-darah mb-5">
                                 <h3 id="list-materi-ipa-3">Sistem Peredaran Darah</h3>
                                 <hr />
-                                <h5>Struktur dan Fungsi Sistem Peredaran Darah</h5>
+                                <h4>Struktur dan Fungsi Sistem Peredaran Darah</h4>
                                 <hr />
-                                <h5>Gangguan atau Kelainan Pada Sistem Peredaran Darah</h5>
+                                <h4>Gangguan atau Kelainan Pada Sistem Peredaran Darah</h4>
                             </div>
                             <div class="struktur-fungsi-tumbuhan mb-5">
                                 <h3 id="list-materi-ipa-4">Struktur & Fungsi Tumbuhan</h3>
                                 <hr />
-                                <h5>Akar, Batang, Daun dan Bunga</h5>
+                                <h4>Akar, Batang, Daun dan Bunga</h4>
                                 <hr />
-                                <h5>Jaringan Pada Tumbuhan</h5>
+                                <h4>Jaringan Pada Tumbuhan</h4>
                                 <hr />
-                                <h5>Teknologi</h5>
+                                <h4>Teknologi</h4>
                             </div>
                             <div class="fotosintesis mb-5">
                                 <h3 id="list-materi-ipa-5">Fotosintesis</h3>
                                 <hr />
-                                <h5>Konsep Fotosintesis</h5>
+                                <h4>Konsep Fotosintesis</h4>
                                 <hr />
-                                <h5>Percobaan Fotosintesis</h5>
+                                <h4>Percobaan Fotosintesis</h4>
                                 <hr />
-                                <h5>Faktor-Faktor Yang Mempengaruhi Fotosintesis</h5>
+                                <h4>Faktor-Faktor Yang Mempengaruhi Fotosintesis</h4>
                             </div>
                         </div>
                     </div>
@@ -115,11 +119,15 @@
             <div class="tab-pane fade" id="nav-tugasipa" role="tabpanel" aria-labelledby="nav-tugasipa-tab" tabindex="0">
                 <div class="row mt-4">
                     <div class="col-3">
-                        <aside>
-                            <h4 class="">Tugas Terbaru</h4>
-                            <a href="/tugas-gangguan-pencernaan.html">Tugas Gangguan Pada Sistem Pencernaan</a>
-                            <p class="text-secondary">Batas waktu lusa</p>
-                            <button type="button" class="btn shadow-sm text-black mb-3" style="background-color: #ffddd1">Lihat Lainnya</button>
+                        <aside class="card p-3">
+                            <h5 class="">Tugas Terbaru</h5>
+                            <p class="text-secondary fw-bold small m-0">Batas waktu besok</p>
+                            <a class="text-decoration-none text-black small" href="/tugas-gangguan-pencernaan.html">Tugas Gangguan Pada Sistem Pencernaan</a>
+                            <hr />
+                            <p class="text-secondary fw-bold small m-0">Tenggat: Kamis</p>
+                            <a class="text-decoration-none text-black small" href="#">Tugas Rangka</a>
+
+                            <button type="button" class="btn shadow-sm text-black btn-sm mt-3" style="background-color: #ffddd1">Lihat Lainnya</button>
                         </aside>
                     </div>
                     <div class="col-9">
@@ -127,55 +135,55 @@
                             <h3>Sistem Gerak</h3>
                             <hr />
 
-                            <h5>Tugas Rangka</h5>
+                            <h4>Tugas Rangka</h4>
 
                             <hr />
-                            <h5>Tugas Sendi</h5>
+                            <h4>Tugas Sendi</h4>
                             <hr />
-                            <h5>Tugas Otot</h5>
+                            <h4>Tugas Otot</h4>
                             <hr />
-                            <h5>Tugas Gangguan dan Kelainan Pada Sistem Gerak</h5>
+                            <h4>Tugas Gangguan dan Kelainan Pada Sistem Gerak</h4>
                         </div>
                         <div class="sistem-pencernaan mb-5">
                             <h3>Nutrisi</h3>
                             <hr />
-                            <h5>Tugas Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h5>
+                            <h4>Tugas Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h4>
                             <hr />
                             <a href="/tugas-gangguan-pencernaan.html" class="text-decoration-none text-black">
-                                <h5>Tugas Gangguan Pada Sistem Pencernaan</h5>
+                                <h4>Tugas Gangguan Pada Sistem Pencernaan</h4>
                             </a>
                         </div>
                         <div class="sistem-peredaran-darah mb-5">
                             <h3>Sistem Peredaran Darah</h3>
                             <hr />
-                            <h5>Tugas Struktur dan Fungsi Sistem Peredaran Darah</h5>
+                            <h4>Tugas Struktur dan Fungsi Sistem Peredaran Darah</h4>
                             <hr />
-                            <h5>Tugas Gangguan atau Kelainan Pada Sistem Peredaran Darah</h5>
+                            <h4>Tugas Gangguan atau Kelainan Pada Sistem Peredaran Darah</h4>
                         </div>
                         <div class="struktur-fungsi-tumbuhan mb-5">
                             <h3>Struktur & Fungsi Tumbuhan</h3>
                             <hr />
-                            <h5>Tugas Akar, Batang, Daun dan Bunga</h5>
+                            <h4>Tugas Akar, Batang, Daun dan Bunga</h4>
                             <hr />
-                            <h5>Tugas Jaringan Pada Tumbuhan</h5>
+                            <h4>Tugas Jaringan Pada Tumbuhan</h4>
                             <hr />
-                            <h5>Tugas Teknologi</h5>
+                            <h4>Tugas Teknologi</h4>
                         </div>
                         <div class="fotosintesis mb-5">
                             <h3>Fotosintesis</h3>
                             <hr />
-                            <h5>Tugas Konsep Fotosintesis</h5>
+                            <h4>Tugas Konsep Fotosintesis</h4>
                             <hr />
-                            <h5>Tugas Percobaan Fotosintesis</h5>
+                            <h4>Tugas Percobaan Fotosintesis</h4>
                             <hr />
-                            <h5>Tugas Faktor-Faktor Yang Mempengaruhi Fotosintesis</h5>
+                            <h4>Tugas Faktor-Faktor Yang Mempengaruhi Fotosintesis</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    s
     <footer class="text-lg-start">
         <div class="text-center p-3" style="background-color: #006266; color: white">Dirancang Oleh Riani BM © 2022</div>
     </footer>
@@ -184,5 +192,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script type="text/javascript" src="js/asb.js"></script>
 </body>
+
+</html>
 
 </html>
