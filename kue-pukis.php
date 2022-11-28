@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['username'])) {
+    $_SESSION['error'] = "Silakan login terlebih dahulu";
+    header("Location: index.php");
+}
+
+?> 
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +39,7 @@
     <header>
         <nav class="navbar shadow-sm p-3 mb-2" style="background-color: white">
             <div class="container">
-                <a class="" href="beranda.html"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
+                <a class="" href="beranda.php"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
 
                 <a href="logout.php"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i>Keluar</a>
             </div>
@@ -40,8 +50,8 @@
         <!-- breadcrumbs -->
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="beranda.html">Menu Utama</a></li>
-                <li class="breadcrumb-item" aria-current=""><a href="/tata-boga.html">Tata Boga</a></li>
+                <li class="breadcrumb-item"><a href="beranda.php">Menu Utama</a></li>
+                <li class="breadcrumb-item" aria-current=""><a href="tata-boga.php">Tata Boga</a></li>
                 <li class="breadcrumb-item" aria-current="">Materi</li>
                 <li class="breadcrumb-item active" aria-current="page">Kue Pukis</li>
             </ol>

@@ -1,3 +1,30 @@
+<?php
+
+include 'config.php';
+
+error_reporting(0);
+
+session_start();
+
+if(isset($_SESSION['username'])) {
+    header("Location: beranda.php");
+}
+
+if(isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = md5($_POST['password']);
+
+    $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
+    $result = mysqli_query($conn, $sql);
+    if($result->num_rows > 0) {
+        $row = mysqli_fetch_assoc($result);
+        $_SESSION['username'] = $row['username'];
+        header("Location: beranda.php");
+    } else {
+        echo "<script>alert('Username atau password Anda salah!');</script>";
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,11 +65,11 @@
                   </svg>
                             </div>
                             <form action="login.php" class="login-form" method="post">
-                                <?php if(isset($_GET['error'])){ ?>
-                                <p class="error">
-                                    <?php echo $_GET['error']; ?>
-                                </p>
-                                <?php} ?>
+                                <?php if(isset($_SESSION['error'])){ ?>
+                                    <script>
+                                        alert('<?php echo $_SESSION['error']; session_destroy(); ?>');
+                                    </script>
+                                <?php } ?>
                                     <div class="form-group">
                                         <label for="name" class="form-label">Username</label>
                                         <input type="text" name="uname" id="name" class="form-control mb-2" placeholder="" />

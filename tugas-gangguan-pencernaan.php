@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['username'])) {
+    $_SESSION['error'] = "Silakan login terlebih dahulu";
+    header("Location: index.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,7 +37,7 @@
     <header>
         <nav class="navbar shadow-sm p-3 mb-2" style="background-color: white">
             <div class="container">
-                <a class="active" href="#"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
+                <a class="active" href="beranda.php"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
 
                 <a href="#"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i>Keluar</a>
             </div>
@@ -37,14 +47,14 @@
         <!-- breadcrumbs -->
         <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="beranda.html">Menu Utama</a></li>
-                <li class="breadcrumb-item" aria-current=""><a href="ipa.html">IPA</a></li>
+                <li class="breadcrumb-item"><a href="beranda.php">Menu Utama</a></li>
+                <li class="breadcrumb-item" aria-current=""><a href="ipa.php">IPA</a></li>
                 <li class="breadcrumb-item" aria-current="">Tugas</li>
                 <li class="breadcrumb-item active" aria-current="page">Tugas Gangguan Pencernaan</li>
             </ol>
         </nav>
 
-        <a href="ipa.html"><button type="button" class="btn shadow-sm text-light" style="background-color: #13699f"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
+        <a href="ipa.php"><button type="button" class="btn shadow-sm text-light" style="background-color: #13699f"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
       >
     </div>
     <!-- isi -->

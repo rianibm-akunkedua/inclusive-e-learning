@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['username'])) {
+    $_SESSION['error'] = "Silakan login terlebih dahulu";
+    header("Location: index.php");
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +31,7 @@
     <header>
         <nav class="navbar shadow-sm p-3 mb-2" style="background-color: white">
             <div class="container">
-                <a class="active" href="#"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i>Menu Utama</a>
+                <a class="active" href="beranda.php"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i>Menu Utama</a>
 
                 <a href="logout.php"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i>Keluar</a>
             </div>
@@ -32,7 +42,7 @@
     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
         <div class="container">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/beranda.html">Menu Utama</a></li>
+                <li class="breadcrumb-item"><a href="beranda.php">Menu Utama</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Tata Boga</li>
             </ol>
         </div>
