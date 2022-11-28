@@ -67,7 +67,7 @@ if(!isset($_SESSION['username'])) {
                     </a>
                 </div>
                 <div class="col-md-3 mb-3">
-                    <a href="/ipa.html" class="text-decoration-none">
+                    <a href="ipa.php" class="text-decoration-none">
                         <div class="card">
                             <img src="img/1-3-ipa.jpg" class="card-img-top" alt="Menu Mata Pelajaran IPA" />
                             <div class="card-body">

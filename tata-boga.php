@@ -91,7 +91,7 @@ if(!isset($_SESSION['username'])) {
                                 <h3 id="list-materi-tataboga-2">Kue Basah</h3>
                                 <hr />
 
-                                <a href="/kue-pukis.html">
+                                <a href="kue-pukis.php">
                                     <h4>Kue Pukis</h4>
                                 </a>
 

@@ -78,7 +78,7 @@ if(!isset($_SESSION['username'])) {
                             <div class="sistem-gerak mb-5 mt-3">
                                 <h3 id="list-materi-ipa-1">Sistem Gerak</h3>
                                 <hr />
-                                <a href="rangka.html" class="text-decoration-none text-black">
+                                <a href="rangka.php" class="text-decoration-none text-black">
                                     <h4>Rangka</h4>
                                 </a>
                                 <hr />
@@ -132,7 +132,7 @@ if(!isset($_SESSION['username'])) {
                         <aside class="card p-3">
                             <h5 class="">Tugas Terbaru</h5>
                             <p class="text-secondary fw-bold small m-0">Batas waktu besok</p>
-                            <a class="text-decoration-none text-black small" href="/tugas-gangguan-pencernaan.html">Tugas Gangguan Pada Sistem Pencernaan</a>
+                            <a class="text-decoration-none text-black small" href="tugas-gangguan-pencernaan.php">Tugas Gangguan Pada Sistem Pencernaan</a>
                             <hr />
                             <p class="text-secondary fw-bold small m-0">Tenggat: Kamis</p>
                             <a class="text-decoration-none text-black small" href="#">Tugas Rangka</a>
@@ -159,7 +159,7 @@ if(!isset($_SESSION['username'])) {
                             <hr />
                             <h4>Tugas Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h4>
                             <hr />
-                            <a href="/tugas-gangguan-pencernaan.html" class="text-decoration-none text-black">
+                            <a href="tugas-gangguan-pencernaan.php" class="text-decoration-none text-black">
                                 <h4>Tugas Gangguan Pada Sistem Pencernaan</h4>
                             </a>
                         </div>

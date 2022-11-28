@@ -58,7 +58,7 @@ if(!isset($_SESSION['username'])) {
         </nav>
 
         <!-- button kembali -->
-        <a href="/tata-boga.html"><button type="button" class="btn shadow-sm text-light" style="background-color: #13699f"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
+        <a href="tata-boga.php"><button type="button" class="btn shadow-sm text-light" style="background-color: #13699f"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
       >
       <!-- judul materi -->
       <h1 class="fw-bold">Kue Pukis</h1>
