@@ -64,7 +64,7 @@ if(isset($_POST['submit'])) {
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                   </svg>
                             </div>
-                            <form action="login.php" class="login-form" method="post">
+                            <form action="" class="login-form" method="post">
                                 <?php if(isset($_SESSION['error'])){ ?>
                                     <script>
                                         alert('<?php echo $_SESSION['error']; session_destroy(); ?>');
@@ -72,7 +72,7 @@ if(isset($_POST['submit'])) {
                                 <?php } ?>
                                     <div class="form-group">
                                         <label for="name" class="form-label">Username</label>
-                                        <input type="text" name="uname" id="name" class="form-control mb-2" placeholder="" />
+                                        <input type="text" name="username" id="username" class="form-control mb-2" placeholder="" />
                                     </div>
                                     <div class="form-group">
                                         <label for="password" class="form-label">Password</label>
@@ -80,7 +80,7 @@ if(isset($_POST['submit'])) {
                                     </div>
 
                                     <div class="text-center mt-3 mb-4">
-                                        <button class="form-control btn" style="background-color: #13699f; color: white">Masuk</button>
+                                        <button class="form-control btn" name="submit" style="background-color: #13699f; color: white">Masuk</button>
                                     </div>
                             </form>
                         </div>
