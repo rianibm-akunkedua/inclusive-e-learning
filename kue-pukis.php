@@ -8,7 +8,10 @@ if(!isset($_SESSION['username'])) {
 }
 
 ?> 
-<?php include "komponen/head.php"; ?>
+<?php 
+$title = "Kue Pukis";
+include "komponen/head.php"; 
+?>
 
 <body>
   <?php include "komponen/header.php"; ?> 
@@ -55,6 +58,7 @@ if(!isset($_SESSION['username'])) {
     <!-- <script src="js/script.js"></script> -->
     <!-- script aksesibilitas -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script type="text/javascript" src="/js/asb.js"></script>
+    <script type="text/javascript" src="js/asb.js"></script>
+    <script type="text/javascript" src="js/script-materi-tugas.js"></script>
   </body>
 </html>

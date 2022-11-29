@@ -9,7 +9,10 @@ if(!isset($_SESSION['username'])) {
 
 ?>
 
-<?php include "komponen/head.php"; ?>
+<?php 
+$title = "Beranda";
+include "komponen/head.php"; 
+?>
 
 <body>
     <?php include "komponen/header.php"; ?>
