@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --text: #58585D;
+    --text-dark: #34364A;
+    --primary: #2447f9;
+    --primary-dark: #181230;
+    --line: #efefef;
+    --bg: #F6F8FD;
+    --bg-alt: #fdfdfd;
+    --font: 'Mulish',sans-serif;
+    --font-size: 16px;
+    --radius: 4px;
+    --weight-normal: 400;
+    --weight-semi: 700;
+    --weight-bold: 900;
+    --container: 80%;
+    --container-max: 1356px;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+header i {
+    margin-right: 8px;
+    position: relative;
+}
+
+.menu-home {
+    text-decoration: none;
+    padding-bottom: 6px;
+    color: var(--primary);
+    font-size: large;
+}
+
+.menu-home i {
+    margin-bottom: 4px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.menu-home:hover {
+    border-bottom: 4px solid black;
+    color: var(--primary-dark);
+}
+
+.menu-home .icon {
+    color: var(--primary);
+}
+
+h1, h2, h3, h4 {
+    color: var(--text-dark);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.card {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: var(--radius);
+    cursor: pointer;
+    color: var(--text);
+    text-align: center;
+    height: 225px;
+}
+
+.card:focus-visible {
+    outline: 3px solid var(--primary-dark);
+}
+
+.card-target:focus-visible {
+    outline: 2px solid var(--primary-dark);
+}
+
+.card img {
+    object-fit: contain;
+    width: 120px;
+    align-self: center;
+    transition: transform .2s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.breadcrumb li.active {
+    color: var(--text);
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 4px solid var(--primary);
+}
+
+.list-group-item-info {
+    background-color: var(--bg-alt);
+    color: var(--text);
+}
+
+.list-group-item-info.list-group-item-action:focus, .list-group-item-info.list-group-item-action:hover {
+    color: var(--bg-alt);
+    background-color: var(--primary);
+}
+
+.list-group-item:last-child {
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+
+.list-group-item-info.list-group-item-action.active {
+    background-color: var(--primary-dark);
+}
+
+button.btn {
+    background-color: var(--primary);
+    color: var(--bg);
+}
+
+button.btn:hover {
+    background-color: var(--primary-dark);
+    color: var(--bg);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bg);
+    background-color: var(--primary-dark);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--primary);
+}
+
+.accordion-button:not(.collapsed)::after {
+    color: var(--bg);
+    background-image: var(--bs-accordion-btn-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.nav-tabs {
+    --bs-nav-tabs-link-active-bg: var(--bg);
+}
+
+p {
+    font-size: var(--font-size);
+}
+
+.card-body span {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary);
+    font-weight: bold;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+}
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    
+}

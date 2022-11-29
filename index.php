@@ -12,7 +12,7 @@ if(isset($_SESSION['username'])) {
 
 if(isset($_POST['submit'])) {
     $username = $_POST['username'];
-    $password = md5($_POST['password']);
+    $password = $_POST['password'];
 
     $sql = "SELECT * FROM user WHERE username = '$username' AND password = '$password'";
     $result = mysqli_query($conn, $sql);
@@ -40,26 +40,27 @@ if(isset($_POST['submit'])) {
     <link rel="stylesheet" href="icons/fontawesome5.9.0/css/all.min.css" />
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/asb.css" />
+    <link rel="stylesheet" href="css/adjustment-login.css" />
     <script src="js/asb.js"></script>
 </head>
 
 <body>
     <header>
-        <nav class="navbar fixed-top shadow-sm p-3 mb-5" style="background-color: white">
+        <nav class="navbar fixed-top p-3 mb-5">
             <div class="container">
-                <h1 class="navbar-brand mb-0" style="color: #1e8084">#BelajarTanpaBatas</h1>
+                <h1 class="navbar-brand mb-0 fw-bold" style="color: #2447f9">#BelajarTanpaBatas</h1>
             </div>
         </nav>
     </header>
     <!-- Login -->
-    <section>
+    <sectio class="mt-5">
         <div class="container mt-5 pt-5 mb-5">
             <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 col-md-5 m-auto">
-                    <div class="card border-0 shadow rounded">
-                        <div class="card-body">
+                <div class="col-12 col-sm-8 col-md-6 m-auto">
+                    <div class="card border-0 rounded">
+                        <div class="card-body p-5">
                             <div class="icon d-flex align-items-center justify-content-center">
-                                <svg class="mx-auto my-3 pl-3" xmlns="http://www.w3.org/2000/svg" width="50" height="50" style="color: #33559c" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <svg class="mx-auto my-3 pl-3" xmlns="http://www.w3.org/2000/svg" width="50" height="50" style="color: #2447f9" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                     <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
                   </svg>
@@ -80,7 +81,7 @@ if(isset($_POST['submit'])) {
                                     </div>
 
                                     <div class="text-center mt-3 mb-4">
-                                        <button class="form-control btn" name="submit" style="background-color: #13699f; color: white">Masuk</button>
+                                        <button class="form-control btn" name="submit" >Masuk</button>
                                     </div>
                             </form>
                         </div>
@@ -88,16 +89,16 @@ if(isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-    </section>
+    </sectio>
     <!-- Login -->
-    <footer class="text-lg-start" style="background-color: #43cbcb">
+    <footer class="text-lg-start">
         <!-- Grid container -->
-        <div class="container p-4">
+        <div class="container">
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
-                <div class="col-lg-7 col-md-12 mb-4 mb-md-0">
-                    <h5 class="fw-bold">Sekilas Info</h5>
+                <div class="col-lg-7 col-md-12 mb-4 mb-md-0 p-5">
+                    <h3 class="fw-bold">Sekilas Info</h3>
 
                     <p>
                         Situs ini merupakan rancangan desain inklusif dari penelitian skripsi/tugas akhir. <br />Sesuai dengan namanya, rancangan situs ini diharapkan dapat bersifat inklusif yaitu, dapat digunakan oleh anak dengan kebutuhan khusus dan
@@ -107,14 +108,14 @@ if(isset($_POST['submit'])) {
                 <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-lg-5 col-md-12 mb-4 mb-md-0">
-                    <h5 class="fw-bold">Kontak</h5>
+                <div class="col-lg-5 col-md-12 mb-4 mb-md-0 p-5">
+                    <h3 class="fw-bold">Kontak</h3>
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-black" href="mailto:rianimatialu@gmail.com">rianimatialu@gmail.com</a>
+                            <a href="mailto:rianimatialu@gmail.com">rianimatialu@gmail.com</a>
                         </li>
                         <li>
-                            <a class="text-black" href="mailto:riani.bernadet@ti.ukdw.ac.id">riani.bernadet@ti.ukdw.ac.id</a>
+                            <a href="mailto:riani.bernadet@ti.ukdw.ac.id">riani.bernadet@ti.ukdw.ac.id</a>
                         </li>
                     </ul>
                 </div>
@@ -124,7 +125,7 @@ if(isset($_POST['submit'])) {
         </div>
         <!-- Grid container -->
 
-        <div class="text-center p-3" style="background-color: #006266; color: white">Dirancang Oleh Riani BM © 2022</div>
+        <div class="text-center p-3" style="background-color: #2447f9; color: white">Dirancang Oleh Riani BM © 2022</div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>

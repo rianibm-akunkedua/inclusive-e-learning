@@ -8,43 +8,12 @@ if(!isset($_SESSION['username'])) {
 }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu Mata Pelajaran IPA di E-Learning Inklusif</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- accessibility -->
-    <link rel="stylesheet" href="/icons/fontawesome5.9.0/css/fontawesome.min.cssS" />
-    <link rel="stylesheet" href="/css/default.css" />
-    <link rel="stylesheet" href="/css/asb.css" />
-    <script src="/js/asb.js"></script>
-
-    <!-- baca materi -->
-    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
-    <script src="https://code.responsivevoice.org/responsivevoice.js?key=GGk26m4X"></script>
-    <script src="/js/script-materi-tugas.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-</head>
+<?php include "komponen/head.php"; ?>
 
 <body>
     <!-- navbar -->
-    <header>
-        <nav class="navbar shadow-sm p-3 mb-2" style="background-color: white">
-            <div class="container">
-                <a class="" href="beranda.php"><i class="fa fa-fw fa-home" style="color: #07a5a9"></i> Menu Utama</a>
-
-                <a href="logout.php"><i class="fa fa-fw fa-user" style="color: #07a5a9"></i>Keluar</a>
-            </div>
-        </nav>
-    </header>
+    <?php include "komponen/header.php"; ?>
 
     <main class="container">
         <!-- breadcrumbs -->
@@ -56,30 +25,29 @@ if(!isset($_SESSION['username'])) {
                 <li class="breadcrumb-item active" aria-current="page">Sistem Gerak</li>
             </ol>
         </nav>
-
         <!-- button kembali -->
-        <a href="ipa.php"><button type="button" class="btn shadow-sm text-light" style="background-color: #13699f"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
+        <a href="ipa.php"><button type="button" class="btn shadow-sm text-light"><i class="fa-solid fa-arrow-left-long"></i> Kembali</button></a
       >
       <!-- judul materi -->
-      <h1 class="fw-bold">Rangka</h1>
+      <h1 class="fw-bold mt-4">Rangka</h1>
       <hr />
-      <div class="video-ipa mb-2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/yfYlmCyz56w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; " allowfullscreen></iframe>
+      <div class="video-ipa mb-2 col-12">
+        <iframe width="560" height="315" style="max-width:100%;" src="https://www.youtube.com/embed/yfYlmCyz56w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; " allowfullscreen></iframe>
       </div>
       
       <!-- article -->
-      <article>
+      <article style="max-width: 90vw">
         <!-- <button class="btn btn-primary" onclick="manspeak('article')">Play</button> -->
-        <button type="button" value="Play" class="btn shadow-sm text-black mb-3" style="background-color: #FFDDD1;" onclick="manspeak('article')"><i class="fa-solid fa-volume-high"></i> Dengar Isi Materi </button>
+        <button type="button" value="Play" class="btn shadow-sm mb-3" onclick="manspeak('article')"><i class="fa-solid fa-volume-high"></i> Dengar Isi Materi </button>
 
         <!-- <div id="text-speak">Tes tes satu dua</div> -->
-        <div id="text-speak" class="materi-pertama p-3 rounded-4 mb-4 shadow">
+        <div id="text-speak" class="materi-pertama rounded-4 mb-4">
             <p>Rangka merupakan alat gerak pasif dalam tubuh manusia, karena sifatnya hanya sebagai tempat melekatnya otot. Fungsi rangka diantaranya memberi postur tubuh, melekatnya otot, pelindung organ-organ bagian dalam yang lunak, bekerja secara simultan dengan otot dan sistem saraf. Tulang sendiri memiliki beberapa lapisan dari arah luar ke dalam yang secara berturut-turut, ialah periosteum, tulang kompak, tulang spons, endosteum, dan sumsum tulang. Sementara 5 bentuk tulang diantaranya tulang pipa, tulang pipih, tulang pendek, tulak tidak beraturan, dan tulang sesamoid. Rangka aksial sendiri tersusun dari: tulang tengkorak, tulang telinga dan hioid, tulang belakang, tulang dada, dan tulang rusuk. Sedangkan rangka apendikuler tersusun dari: alat gerak atas, gelang bahu, alat gerak bawah, dan gelang panggul.
                 
             </p>
         </div>
 
-        <div id="text-speak" class="materi-kedua p-3 rounded-4 mb-4 shadow">
+        <div id="text-speak" class="materi-kedua rounded-4 mb-5">
             <P>Secara keseluruhan, rangka manusia dibedakan menjadi tiga kelompok yaitu:
            
                 
@@ -102,9 +70,7 @@ if(!isset($_SESSION['username'])) {
     </main>
 
     <!-- footer -->
-    <footer class="text-lg-start">
-      <div class="text-center p-3" style="background-color: #006266; color: white">Dirancang Oleh Riani BM © 2022</div>
-    </footer>
+    <?php include "komponen/footer.php"; ?>
 
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
