@@ -47,83 +47,75 @@ include "komponen/head.php";
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-1" aria-expanded="false" aria-controls="accordion-materi-ipa-1">
-                                Sistem Gerak
+                                Kue Kering
                             </button>
                             </h2>
                             <div id="accordion-materi-ipa-1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <a href="rangka.php" class="text-decoration-none text-black">
-                                    <h4>Rangka</h4>
-                                </a>
-                                <hr />
-                                <h4>Sendi</h4>
-                                <hr />
-                                <h4>Otot</h4>
-                                <hr />
-                                <h4>Gangguan dan Kelainan Pada Sistem Gerak</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <h4>Kue Kacang</h4>
+                                    <hr />
+                                    <h4>Nastar</h4>
+                                    <hr />
+                                    <h4>Kastangel</h4>
+                                    <hr />
+                                    <h4>Putri Salju</h4>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-2" aria-expanded="false" aria-controls="accordion-materi-ipa-2">
-                                Sistem Pencernaan
+                                Kue Basah
                             </button>
                             </h2>
                             <div id="accordion-materi-ipa-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Nutrisi</h4>
-                                <hr />
-                                <h4>Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h4>
-                                <hr />
-                                <h4>Gangguan Pada Sistem Pencernaan</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <a href="kue-pukis.php">
+                                        <h4>Kue Pukis</h4>
+                                    </a>
+                                    <hr />
+                                    <h4>Klepon</h4>
+                                    <hr />
+                                    <h4>Onde-onde</h4>
+                                    <hr />
+                                    <h4>Putu Ayu</h4>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-3" aria-expanded="false" aria-controls="accordion-materi-ipa-3">
-                                Sistem Peredaran Darah
+                                Makanan Pembuka
                             </button>
                             </h2>
                             <div id="accordion-materi-ipa-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Struktur dan Fungsi Sistem Peredaran Darah</h4>
-                                <hr />
-                                <h4>Gangguan atau Kelainan Pada Sistem Peredaran Darah</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <h4>Bakwan</h4>
+                                    <hr />
+                                    <h4>Martabak Telur</h4>
+                                    <hr />
+                                    <h4>Risoles</h4>
+                                    <hr />
+                                    <h4>Tahu Isi</h4>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-4" aria-expanded="false" aria-controls="accordion-materi-ipa-4">
-                                Struktur & Fungsi Tumbuhan
+                                Makanan Pokok
                             </button>
                             </h2>
                             <div id="accordion-materi-ipa-4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Akar, Batang, Daun dan Bunga</h4>
-                                <hr />
-                                <h4>Jaringan Pada Tumbuhan</h4>
-                                <hr />
-                                <h4>Teknologi</h4>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-5" aria-expanded="false" aria-controls="accordion-materi-ipa-5">
-                            Fotosintesis
-                            </button>
-                            </h2>
-                            <div id="accordion-materi-ipa-5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                            <h4>Konsep Fotosintesis</h4>
-                                <hr />
-                                <h4>Percobaan Fotosintesis</h4>
-                                <hr />
-                                <h4>Faktor-Faktor Yang Mempengaruhi Fotosintesis</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <h4>Bubur</h4>
+                                    <hr />
+                                    <h4>Nasi Uduk</h4>
+                                    <hr />
+                                    <h4>Nasi Goreng</h4>
+                                    <hr />
+                                    <h4>Nasi Kuning</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -143,9 +135,7 @@ include "komponen/head.php";
                             <div class="kue-kering mb-5 mt-3">
                                 <h3 id="list-materi-tataboga-1">Kue Kering</h3>
                                 <hr />
-
                                 <h4>Kue Kacang</h4>
-
                                 <hr />
                                 <h4>Nastar</h4>
                                 <hr />
@@ -156,11 +146,9 @@ include "komponen/head.php";
                             <div class="kue-basah mb-5">
                                 <h3 id="list-materi-tataboga-2">Kue Basah</h3>
                                 <hr />
-
                                 <a href="kue-pukis.php">
                                     <h4>Kue Pukis</h4>
                                 </a>
-
                                 <hr />
                                 <h4>Klepon</h4>
                                 <hr />
@@ -204,82 +192,38 @@ include "komponen/head.php";
                     <div class="accordion mobile" >
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-1" aria-expanded="false" aria-controls="accordion-materi-ipa-1">
-                                Sistem Gerak
-                            </button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-1" aria-expanded="false" aria-controls="accordion-materi-ipa-1">
+                                    Kue Kering
+                                </button>
                             </h2>
                             <div id="accordion-materi-ipa-1" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Tugas Rangka</h4>
-                                <hr />
-                                <h4>Tugas Sendi</h4>
-                                <hr />
-                                <h4>Tugas Otot</h4>
-                                <hr />
-                                <h4>Tugas Gangguan dan Kelainan Pada Sistem Gerak</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <h4>Tugas Kue Kacang</h4>
+                                    <hr />
+                                    <h4>Tugas Nastar</h4>
+                                    <hr />
+                                    <h4>Tugas Kastangel</h4>
+                                    <hr />
+                                    <h4>Tugas Putri Salju</h4>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-2" aria-expanded="false" aria-controls="accordion-materi-ipa-2">
-                                Nutrisi
-                            </button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-2" aria-expanded="false" aria-controls="accordion-materi-ipa-2">
+                                    Kue Basah
+                                </button>
                             </h2>
                             <div id="accordion-materi-ipa-2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Tugas Struktur dan Fungsi Sistem Pencernaan Pada Manusia</h4>
-                                <hr />
-                                <a href="tugas-gangguan-pencernaan.php" class="text-decoration-none text-black">
-                                    <h4>Tugas Gangguan Pada Sistem Pencernaan</h4>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-3" aria-expanded="false" aria-controls="accordion-materi-ipa-3">
-                                Sistem Peredaran Darah
-                            </button>
-                            </h2>
-                            <div id="accordion-materi-ipa-3" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Tugas Struktur dan Fungsi Sistem Peredaran Darah</h4>
-                                <hr />
-                                <h4>Tugas Gangguan atau Kelainan Pada Sistem Peredaran Darah</h4>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-4" aria-expanded="false" aria-controls="accordion-materi-ipa-4">
-                                Tugas Struktur & Fungsi Tumbuhan
-                            </button>
-                            </h2>
-                            <div id="accordion-materi-ipa-4" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Tugas Akar, Batang, Daun dan Bunga</h4>
-                                <hr />
-                                <h4>Tugas Jaringan Pada Tumbuhan</h4>
-                                <hr />
-                                <h4>Tugas Teknologi</h4>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-materi-ipa-5" aria-expanded="false" aria-controls="accordion-materi-ipa-5">
-                            Fotosintesis
-                            </button>
-                            </h2>
-                            <div id="accordion-materi-ipa-5" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <h4>Tugas Konsep Fotosintesis</h4>
-                                <hr />
-                                <h4>Tugas Percobaan Fotosintesis</h4>
-                                <hr />
-                                <h4>Tugas Faktor-Faktor Yang Mempengaruhi Fotosintesis</h4>
-                            </div>
+                                <div class="accordion-body">
+                                    <h4>Tugas Kue Pukis</h4>
+                                    <hr />
+                                    <h4>Tugas klepon</h4>
+                                    <hr />
+                                    <h4>Tugas Onde-onde</h4>
+                                    <hr />
+                                    <h4>Tugas Putu Ayu</h4>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -298,9 +242,7 @@ include "komponen/head.php";
                         <div class="kue-kering mb-5">
                             <h3>Kue Kering</h3>
                             <hr />
-
                             <h4>Tugas Kue Kacang</h4>
-
                             <hr />
                             <h4>Tugas Nastar</h4>
                             <hr />
@@ -311,9 +253,7 @@ include "komponen/head.php";
                         <div class="kue-basah mb-5">
                             <h3>Kue Basah</h3>
                             <hr />
-
                             <h4>Tugas Kue Pukis</h4>
-
                             <hr />
                             <h4>Tugas klepon</h4>
                             <hr />
