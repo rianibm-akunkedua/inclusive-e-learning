@@ -193,6 +193,20 @@ include "komponen/head.php";
             </div>
             <div class="tab-pane fade" id="nav-tugasipa" role="tabpanel" aria-labelledby="nav-tugasipa-tab" tabindex="0">
                 <div class="row mobile mb-5">
+                    <div class="col">
+                        <aside class="card p-3" style="text-align: left;">
+                            <h3 class="">Tugas Terbaru</h3>
+                            <p class="text-secondary fw-bold small m-0">Batas waktu besok</p>
+                            <a class="text-decoration-none text-black small" href="tugas-gangguan-pencernaan.php">Tugas Gangguan Pada Sistem Pencernaan</a>
+                            <hr />
+                            <p class="text-secondary fw-bold small m-0">Tenggat: Kamis</p>
+                            <a class="text-decoration-none text-black small" href="#">Tugas Rangka</a>
+                        </aside>
+                        <div class="d-grid mt-2">
+                            <button type="button" class="btn shadow-sm btn-bg">Lihat Lainnya</button>
+                        </div>
+                    </div>
+                    <br>
                     <div class="accordion mobile" >
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">

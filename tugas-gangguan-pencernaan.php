@@ -33,7 +33,7 @@ include "komponen/head.php";
     </div>
     <!-- isi -->
     <div class="container mt-4 mb-2">
-      <div class="row">
+      <div class="row desktop">
         <!-- instruksi tugas -->
         <article class="col-9" style="max-width: 90vw">
           <h1 class="fw-bold">Tugas Gangguan Pencernaan</h1>
@@ -54,6 +54,40 @@ include "komponen/head.php";
 
         <!-- tempat kumpul tugas -->
         <aside class="col-3">
+          <div class="card" style="width: 12 rem">
+            <div class="card-body">
+              <h2 class="card-title mt-2" style="font-size: 24px">Kumpul Tugas Anda</h2>
+              <hr />
+              <div class="justify-content-center">
+                <button type="button" class="btn shadow-sm mb-3"><i class="fa-solid fa-plus"></i> Tambah Tugas</button>
+                <button type="button" class="btn shadow-sm mb-3"><i class="fa-solid fa-microphone"></i> Rekam Jawaban</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="row mobile">
+        <!-- instruksi tugas -->
+        <article class="col" style="max-width: 90vw">
+          <h1 class="fw-bold">Tugas Gangguan Pencernaan</h1>
+          <div class="d-flex w-100 justify-content-between">
+            <p>100 Poin</p>
+            <p>Tenggat: 21 Nov 23.59</p>
+          </div>
+          <hr class="m-0" />
+          <button type="button" value="Play" class="btn mt-3 shadow-sm mb-3" onclick="manspeak('article')"><i class="fa-solid fa-volume-high"></i> Dengar Isi Materi</button>
+
+          <!-- <div id="text-speak">Tes tes satu dua</div> -->
+          <div id="text-speak" class="materi-pertama rounded-4">
+            <p>Sebutkan dan jelaskan 3 contoh dari gangguan pencernaan pada manusia!</p>
+          </div>
+
+          <br />
+        </article>
+
+        <!-- tempat kumpul tugas -->
+        <aside class="col">
           <div class="card" style="width: 12 rem">
             <div class="card-body">
               <h2 class="card-title mt-2" style="font-size: 24px">Kumpul Tugas Anda</h2>

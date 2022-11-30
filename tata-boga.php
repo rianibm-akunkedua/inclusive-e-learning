@@ -189,6 +189,16 @@ include "komponen/head.php";
             </div>
             <div class="tab-pane fade" id="nav-tugastataboga" role="tabpanel" aria-labelledby="nav-tugastataboga-tab" tabindex="0">
                 <div class="row mobile mb-5">
+                    <div class="col">
+                        <aside class="card p-3">
+                            <h5 class="">Tugas Terbaru</h5>
+                            <p class="text-secondary fw-bold small m-0">Tidak ada tugas</p>
+                        </aside>
+                        <div class="d-grid mt-2">
+                            <button type="button" class="btn shadow-sm btn-bg">Lihat Lainnya</button>
+                        </div>
+                    </div>
+                    <br>
                     <div class="accordion mobile" >
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
