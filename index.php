@@ -46,18 +46,18 @@ if(isset($_POST['submit'])) {
 
 <body>
     <header>
-        <nav class="navbar fixed-top p-3 mb-5">
+        <nav class="navbar p-3">
             <div class="container">
                 <h1 class="navbar-brand mb-0 fw-bold" style="color: #2447f9">#BelajarTanpaBatas</h1>
             </div>
         </nav>
     </header>
     <!-- Login -->
-    <sectio class="mt-5">
-        <div class="container mt-5 pt-5 mb-5">
+    <section class="mt-3">
+        <div class="container pt-5 mb-5">
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-8 col-md-6 m-auto">
-                    <div class="card border-0 rounded">
+                    <div class="card border-0 rounded shadow">
                         <div class="card-body p-5">
                             <div class="icon d-flex align-items-center justify-content-center">
                                 <svg class="mx-auto my-3 pl-3" xmlns="http://www.w3.org/2000/svg" width="50" height="50" style="color: #2447f9" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -89,7 +89,7 @@ if(isset($_POST['submit'])) {
                 </div>
             </div>
         </div>
-    </sectio>
+    </section>
     <!-- Login -->
     <footer class="text-lg-start">
         <!-- Grid container -->
